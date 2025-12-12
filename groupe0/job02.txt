@@ -1,3 +1,0 @@
-cp /app/repo/groupe-0/groupe-0.md copy.md
-mv copy.md copy2.md
-cat *.md
