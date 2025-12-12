@@ -1,0 +1,8 @@
+grep "POST" logs.txt | grep "192.168.0.2"
+grep ' 2[0-9][0-9] ' logs.txt
+awk '{print $9}' logs.txt
+sort -k1,1 logs.txt
+awk '{print $1}' logs.txt | sort -u
+sed 's/ 200 / OK_YOLO /g' logs.txt
+sed 's/ 200 / OK_YOLO /g' logs.txt
+awk '{print $1}' logs.txt | sort | uniq -c
